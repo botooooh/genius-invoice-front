@@ -87,7 +87,7 @@ export default function CreateQuote() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-50">
-                {lines.map((line, idx) => (
+                {lines.map((line) => (
                   <tr key={line.id} className="group">
                     <td className="py-4 pr-4">
                       <input type="text" className="w-full bg-white border border-gray-200 rounded-lg px-4 py-2 text-gray-900 placeholder-gray-400 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all outline-none shadow-sm" placeholder="Description du service..." />

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Home, FileText, CreditCard, FileSignature, Clock, Settings, User, Bell, Search, LogOut, HelpCircle, ChevronDown, Check, X, Plus, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Home, FileText, CreditCard, FileSignature, Clock, Settings, User, Bell, Search, LogOut, HelpCircle, ChevronDown, Check, Plus, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
 
 export default function DashboardLayout() {
